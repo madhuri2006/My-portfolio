@@ -278,3 +278,27 @@ ul {
   transform: scale(1.05);
   font-size: 18px; /* Optional: makes text a bit larger */
 }
+
+
+.projects-list ul {
+  list-style-type: none; /* or keep disc if you like bullets */
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.projects-list ul li {
+  margin-bottom: 12px;
+}
+
+.projects-list ul li a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.projects-list ul li a:hover {
+  transform: scale(1.05);
+  color: #00aced;
+}
